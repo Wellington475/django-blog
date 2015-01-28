@@ -53,9 +53,7 @@
 					<div class="box-comment">
 						<form action="comment/" method="POST">
 							{% csrf_token %}
-							<textarea name="id_post" style="display:none;">
-								{{rs.id}}
-							</textarea>
+							<input type="hidden" name="id_post" value="{{ rs.id }}">
 							<input type="text" name="name" placeholder="Digite seu nome">
 							<input type="text" name="comment" placeholder="Digite seu comentário">
 							<input type="submit" value="enviar" style="display:none;">

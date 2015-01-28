@@ -14,6 +14,7 @@ def cadComment(request):
 	post = Post.objects.all().order_by('id')
 	if request.method == 'POST':
 		id_post = request.POST['id_post']
+		return HttpResponse("id is : %s" % id_post)
 		p = Post.objects.get(id=id_post)
 		name_comment = request.POST['name']
 		message_comment = request.POST['comment']
