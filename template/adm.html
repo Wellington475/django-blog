@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>
+			Registry
+		</title>
+		<style>
+			*{
+				font-family: verdana;
+				font-size: 14px;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="POST">
+		    {% csrf_token %}
+		    <table>
+		    	<tr>
+		    		<td>
+		    			<b>Title:</b>
+		    		</td>
+		    		<td>
+		    			<input type="text" name="title">
+		    		</td>
+		    	</tr>
+		    	<tr>
+		    		<td>
+		    			<b>message:</b>
+		    		</td>
+		    		<td>
+		    			<textarea name="message">
+
+		    			</textarea>
+		    		</td>
+		    	</tr>
+		    </table>
+		    <input type='submit' value='Registrar'/>
+		</form>
+	</body>
+</html>

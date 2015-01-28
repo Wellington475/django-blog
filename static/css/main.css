@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+input{
+	border: 1px solid #0C4B33;
+	border-radius: 2px;
+	color: #0C4B33;
+	float: left;
+	margin-left:.4%;
+	padding: 2% 2%;
+	height: 30px; 
+	width: 49%;
+	outline: 0!important;
+}
+input:nth-child(odd){
+	width:40%;
+}
+input:nth-child(even){
+	width:58%;
+}
+body{
+	background: #ECECEC;
+	font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+	font-size: 18px; 
+}
+.master{
+	margin: 0 auto auto;
+	text-align: center;
+	width: 100%;
+}
+.nav{
+	background: #0C4B33;
+	color: #ffffff;
+	float: left;
+	height: 8%;
+	position: fixed;
+	width: 100%;
+}
+.banner{
+	background: #44B78B;
+	float: left;
+	height: 35%;
+	margin: 3% auto auto;
+	width: 100%;
+}
+.lototype{
+	cursor: pointer;
+	float: left;
+	height: 100%;
+	padding-top: .8%;
+	width: 15%;
+}
+.box-admin{
+	float: right;
+	height: 100%;
+	padding-top: .8%;
+	width: 8%;
+}
+.box-admin:hover{
+	background: #C9F0DD;
+	color: #0C4B33;
+	cursor: pointer;
+}	
+.showcase{
+	color: #C9F0DD;
+	font-size: 35px;
+	height: 100%;
+	padding-top: 5%;
+	width: 100%;
+}
+.content{
+	float: left;
+	height: auto;
+	margin: 1% auto auto;
+	width: 100%;
+}
+.box-post{
+	background: #ffffff;
+	border: 0px;
+	height: auto;
+	margin: 0px auto auto;
+	margin-bottom: 2%;
+	text-align: center;
+	width: 50%;
+}
+.box-title{
+	background: #C9F0DD;
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	height: 8%;
+	padding: 2% 2%;
+	text-align: left;
+	width: 70%;
+}
+.box-date{
+	background: #0C4B33;
+	color: #ffffff;
+	float: left;
+	font-family: verdana;
+	height: 8%;
+	padding: 2% 2%;
+	text-align: center;
+	width: 30%;
+}
+.box-message{
+	background: #ffffff;
+	float: left;
+	height: auto;
+	padding: 2%;
+	text-align: left;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+.box-comment{
+	background: #ffffff;
+	float: left;
+	height: 8%;
+	margin-bottom: 2%;
+	padding: 2%;
+	text-align: left;
+	width: 100%;
+}
+.stage{
+	background: #ffffff;
+	float: left;
+	height: auto;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+.box-list-title{
+	background: #C9F0DD;
+	float: left;
+	font-weight: bold;
+	height: auto;
+	padding: 1%;
+	margin: 0 auto auto;
+	margin-left: 2%;
+	margin-bottom: 2px;
+	text-align: left;
+	width: 65%;
+}
+.box-list-date{
+	background: #9BE7CA;
+	float: left;
+	height: auto;
+	padding: 1%;
+	margin: 0 auto auto;
+	margin-bottom: 2px;
+	text-align: left;
+	width: 30%;
+}
+.box-list-comment{
+	background: #C9F0DD;
+	float: left;
+	height: auto;
+	padding: 1%;
+	margin: 0 auto auto;
+	margin-left: 2%;
+	margin-bottom: 4px;
+	text-align: left;
+	width: 95%;
+}
