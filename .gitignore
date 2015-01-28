@@ -1,2 +1,3 @@
 core/migrations/*
 *.pyc
+db.sqlite3
