@@ -1,3 +1,2 @@
-core/migrations/
-chave_git
+core/migrations/*
 chave_git.pub
