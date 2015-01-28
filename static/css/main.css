@@ -149,7 +149,7 @@ body{
 	padding: 1%;
 	margin: 0 auto auto;
 	margin-bottom: 2px;
-	text-align: left;
+	text-align: center;
 	width: 30%;
 }
 .box-list-comment{
@@ -163,3 +163,20 @@ body{
 	text-align: left;
 	width: 95%;
 }
+@media screen and (max-width: 1000px){
+	.lototype{
+		padding-top: 1.5%;
+		width: 25%;
+	}
+	.showcase{
+		padding-top: 15%;
+	}	
+	.box-post{
+		width: 90%;
+	}
+	.box-admin{
+		padding-top: 1.5%;
+		padding-right: 2%;
+		width: 15%;
+	}
+} 

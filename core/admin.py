@@ -11,7 +11,7 @@ class PostAdmin(admin.ModelAdmin):
 		('Message', {'fields' : ['message']}),
 		('Date', {'fields' : ['date_publication']})
 	]
-	list_display = ('title', 'message', 'date_publication')
+	list_display = ('title', 'message', 'date_publication', 'publication_today')
 	inlines = [CommentInline]
 
 admin.site.register(Post, PostAdmin)
