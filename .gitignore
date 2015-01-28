@@ -1,4 +1,5 @@
 db.sqlite3
+core/migrations/*
 blog/*.pyc
 core/*.pyc
 *.pyc 
