@@ -1,1 +1,2 @@
-*.pyc
+blog/*.pyc
+core/*.pyc
